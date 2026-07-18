@@ -38,6 +38,8 @@ public class SentenceReveString{
 
         System.out.println("Reverse words string : "+ reverse);       
 
+        scanner.close();
+
 
     }
 }

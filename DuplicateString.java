@@ -22,6 +22,8 @@ public class DuplicateString{
             }
         }
 
+        scanner.close();
+
 
     }
 }
