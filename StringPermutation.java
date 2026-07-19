@@ -10,9 +10,11 @@ public class StringPermutation {
 
          String input = scanner.nextLine();
 
-        System.out.println("Enter the String value for Permutation"+ input + ":" );
+        System.out.println("Enter the String value for Permutation "+ input + ":" );
 
         findpermutations(input, "");
+
+        scanner.close();
 
     }
 
@@ -30,11 +32,13 @@ public class StringPermutation {
                 String rem = str.substring(0,i) + str.substring(i+1);
                 findpermutations(rem,answer+ch);
 
+                
+
             }
 
-        }
+            
 
-       
+        }       
 
 
     }
