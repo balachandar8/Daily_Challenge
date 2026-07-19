@@ -36,7 +36,7 @@ public class SentenceReveString{
             
         }
 
-        System.out.println("Reverse words string : "+ reverse);       
+        System.out.println("Reverse words string : "+ reverse.trim());       
 
         scanner.close();
 

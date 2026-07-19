@@ -10,13 +10,14 @@ public class DuplicateString{
         int []  count = new int[256] ;
 
         for(int i =0; i<input.length(); i++){
-            char c = input.charAt(i);
-            count [c]++;      
+            char c = input.charAt(i);          
+            count [c]++;   
+               
         }
-        System.out.println("Duplicate Characters are sring: ");
+        System.out.println("Duplicate Characters are string: ");
         for (int j= 0; j<count.length; j++){
  
-            if(count[j] >1){
+            if(count[j] >1 && ((char) j != ' ')){
 
                 System.out.println((char)j +":"+ count[j]);
             }
