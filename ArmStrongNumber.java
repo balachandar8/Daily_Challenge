@@ -4,7 +4,7 @@ public class ArmStrongNumber{
 
     public static void main(String[] args) {
 
-        int arm =0,a,b,c,d, input;
+        int arm =0,a,d, input;
         
         Scanner scanner = new Scanner(System.in);
 
