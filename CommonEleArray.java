@@ -16,8 +16,7 @@ public class CommonEleArray {
 
             if(set1.contains(num)){
                 common.add(num);
-
-
+                
             }
         }
 
