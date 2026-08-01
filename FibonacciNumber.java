@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class FibonacciNumber {
 
     public static void main(String[] args) {
+
+        // Fibonacci series 5 : 0 1 1 2 3 
         
         Scanner scanner = new Scanner(System.in);
 
