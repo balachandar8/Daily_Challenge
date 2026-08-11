@@ -24,9 +24,10 @@ public class LoginTest {
 				driver.findElement(By .xpath("//button[.=\"LOGIN\"]")).click();
 				
 				
-				//driver.findElementByLinkText("Log in").click();
+				driver.findElement(By.linkText("Log in")).click();
 				
-			//	driver.findElementByName("email").sendKeys("koushik350@gmail.com");
+				
+				driver.findElement(By.name("email")).sendKeys("koushik350@gmail.com");
 				
 			//	driver.findElementByName("password").sendKeys("Pass123$");
 				
