@@ -19,12 +19,12 @@ public class LoginTest {
 				
 				driver.get("https://letcode.in/");
 				
-				//driver.findElement(By .className("button is-primary is-rounded is-large\"]")).click();
+				driver.findElement(By .className("button is-primary is-rounded is-large\"]")).click();
 				
-				//driver.findElement(By .xpath("//button[.=\"LOGIN\"]")).click();
+				driver.findElement(By .xpath("//button[.=\"LOGIN\"]")).click();
 				
 				
-			//	driver.findElementByLinkText("Log in").click();
+				//driver.findElementByLinkText("Log in").click();
 				
 			//	driver.findElementByName("email").sendKeys("koushik350@gmail.com");
 				
